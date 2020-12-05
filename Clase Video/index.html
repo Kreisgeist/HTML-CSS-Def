@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <video controls preload="auto">
+            <!-- controls es un atributo que activa los controles del video -->
+            <!-- preload = "auto" descarga el video cuando el sitio renderiza (no se reproduce solo)-->
+                <source src="./Girl Washes a Car With a Jet of High-Pressure Water.mp4#t=2,5" >
+                <source src="./Girl Washes a Car With a Jet of High-Pressure Water.mkv#t=2,5" >
+                <!-- #t=inicio,fin indica el segundo inicial y final de reproducción del video -->
+                <!-- con la etiqueta source podemos poner varias opciones de formato de video en
+                caso de que ciertos navegadores no soporten ciertos formatos -->
+                <!-- El navegador respeta el orden de las etiquetas source y se queda con el primero
+                que entienda -->
+            </video>
+        </section>
+    </main>
+</body>
+</html>
